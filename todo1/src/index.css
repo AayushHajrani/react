@@ -1,0 +1,36 @@
+body{
+background-color: black;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.title{
+  color: black;
+}
+
+.todo-item{
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.todo-li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.btn{
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 10px;
+}
